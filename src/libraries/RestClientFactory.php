@@ -1,6 +1,6 @@
 <?php
 
-namespace libraries\Rest\Client;
+namespace nikotyx\restclientmanager\libraries;
 
 use Exception;
 

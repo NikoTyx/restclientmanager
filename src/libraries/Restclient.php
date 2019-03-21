@@ -1,6 +1,6 @@
 <?php
 
-namespace libraries\Rest\Client;
+namespace nikotyx\restclientmanager\libraries;
 
 /**
  * Utilisation de la librairie Restclient pour tous les appels WS

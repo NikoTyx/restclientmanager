@@ -1,6 +1,6 @@
 <?php
 
-namespace libraries\Rest\Client;
+namespace nikotyx\restclientmanager\libraries;
 
 /**
  * Interface Afin de gérer les appels REST à des application externes
