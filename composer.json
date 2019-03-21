@@ -10,7 +10,8 @@
     "role": "Developper"
   }],
   "require": {
-    "php": ">=7.0"
+    "php": ">=7.0",
+    "maltyxx/restclient": "^3.0.2"
   },
   "autoload": {
     "psr-4": {
