@@ -1,0 +1,20 @@
+# Temporary files system
+#-------------------------
+/.DS_Store
+/**/.DS_Store
+
+# PhpStorm
+#-------------------------
+/.idea/
+
+# Netbeans
+#-------------------------
+/nbproject/
+
+# SublimeText
+#-------------------------
+*.tmlanguage.cache
+*.tmPreferences.cache
+*.stTheme.cache
+*.sublime-workspace
+*.sublime-project
