@@ -44,7 +44,7 @@ class Restclient implements IRestClientManager
      */
     public function put(IClient $client): array
     {
-        return $this->manage_return($this->CI->restclient->post($client->getUrl(), $client->getData(), $client->getAuth()), $client);
+        return $this->manage_return($this->CI->restclient->put($client->getUrl(), $client->getData(), $client->getAuth()), $client);
     }
 
     /**
@@ -52,7 +52,7 @@ class Restclient implements IRestClientManager
      */
     public function delete(IClient $client): array
     {
-        return $this->manage_return($this->CI->restclient->post($client->getUrl(), $client->getData(), $client->getAuth()), $client);
+        return $this->manage_return($this->CI->restclient->delete($client->getUrl(), $client->getData(), $client->getAuth()), $client);
     }
 
     /**
